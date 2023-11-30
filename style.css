@@ -13,11 +13,11 @@ p {
 }
 
 a {
-    color: #52309c;
+    color: #2e72a1;
 }
 
-#Logo {
-    max-height: 200px;
+#logo, .project-img {
+    max-height: 300px;
 }
 
 #fork img{
@@ -40,7 +40,7 @@ a {
 }
 
 .bg-2 {
-    background-color: #52309c; /* Green */
+    background-color: #2e72a1; /* Blue */
     color: #ffffff;
 }
 
@@ -54,7 +54,7 @@ a {
 }
 
 .bg-3 {
-    background-color: ##00cc00; /* Black */
+    background-color: #000000; /* Black */
     color: #ffffff;
 }
 
