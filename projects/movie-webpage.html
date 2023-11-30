@@ -44,33 +44,36 @@
     <div class="container-fluid bg-1">
         <div class="container">
 
-            <h1 class="margin text-center">The Movie Webpage Project</h1>
+            <h1 class="margin text-center">Movie Webpage Project</h1>
             <h2>Context</h2>
-            <p>For my SEP Movie Project, I needed to work with a partner and use our knowledge of basic HTML and CSS to create a fake movie webpage. My partner and I decided to make a horror movie, and the title was "Hunter."</p>
+            <p>For my SEP Movie Project, I needed to work with a partner and use our knowledge of basic HTML and CSS to create a fake movie webpage. My partner decided to make a lego-themed action/horror movie, and the title was "Captain Ranger's Last Stand", while I did all of the styling</p>
             <h2>Content</h2>
-            <p>To start our project, we needed to make a plan. We plan our plot for the movie and what we should include in the webpage to meet the requirements. For the HTML part of the movie, we needed to include</p>
+            <p>To start our project, we needed to make a plan. We planned it out pretty concisely. Since my partner didn't really know any CSS, he was tasked with writing the story and adding the accompanying images, while I had to style the story. For the HTML part of the movie, he needed to include</p>
             <li>headings</li>
             <li>paragraph</li>
-            <li>divs and spans</li>
-            <li>imported Google fonts</li>
+            <li>two local images</li>
             <li>inputs and submit button</li><br>
-            <p>For the CSS part, the requirements were</p>
+            <p>For the CSS part, I had to add</p>
             <li>element and class and id selectors</li>
+            <li>divs and spans to subsequently style my page<li>
+            <li>imported fonts, which needed to be mentioned in CSS<li>
             <li>border and padding and margin properties</li><br> 
-            <p>There should also be two local images on the webpage.</p>
-            <h2>Reflection</h2>
-            <h3>Challenge</h3>
-            <p>My partner and I put our best effort into this project to make it as realistic as possible. To do that, we searched for additional information online to design our webpage. One of them would be adding strokes to the words. I looked up any CSS properties that could add strokes to words. However, it did not work when I copied the codes into my work. I went to other websites and tried each code they presented, and I was finally able to find the correct code and change the strokes of my h1 and h2 elements.</p>
-            <h3>Takeaway</h3>
-            <p>I used these two images as the background because I needed to add two images to my webpage. I looked online and found a code I can use.</p>
+            <h2>Reflection</h2><br>
+            <h4>Challenges</h4>
+            <p>I greatly struggled with spacing and positioning throughout this project. When adding my linear gradient background image, there was white space all around the entire webpage. I had to set the top, bottom, left and right margin properties for the linear-gradient, and after this still produced some white space on top of the webpage or to the side, I had to set the margin properties, respectively, for each element within a div-with-no-border. Finally, there was still white spacing to the right of all of the content of the webpage which was unaffected by any margin properties. This was caused by the size of the images, and making them smaller solved the issue. Another CSS property, overflow-x, with its value set to 'hidden' prevents the user from scrolling along the x-axis and revealing the white space, but subsequently, cuts off the images</p>
+            <h4>Takeaways</h4>
+            <p>I learned how to manipulate the padding property of an element (for example, h1) inside of a CSS element such as .div-with no-border --that div-with-no-border being the class value of the html element that is inside of it in html-- to style a webpage exactly how I want it to look; making completely circlular elements on my webpage be the right size and shape to comfortably fit elements inside with the use of the padding property.
+            <p>I need to always pay attention to the size of the image (width)</p>
+            <h4>Next Step</h4>
+            <p>What I struggled with most was spacing and positioning so I need to practice this in the future. The only way I found to add make an image that is too big not cause the overflow of white space to the left of the entire webpage, was to add the 'overflow-x' property to the body and html elements in CSS, buts this cuts off part of the image. In the future, I need to find a way to make the image as big as I want it to be without it flowing outside of the background image; without obstructing the image itself in any way.
+            
+            <p>Code used to style my webpage when my image was to large</p>
             <pre><code class="language-CSS">
-                background-image: url("img/hunter-hand.jpeg");
+                overflow-x: hidden;
             </code></pre>
-            <h3>Next Step</h3>
-            <p>I will add a sequel to my movie webpage if I have more time. I already thought up the plot of the next movie with my partner and dropped it down in the planning section, but we did not have enough time to make another html webpage.</p>
-            <h3>Skills I learned</h3>
-            <p>This project taught me that I need to try on my own and even search on Google before asking people for help. When I have a problem, I must work it out and try anything I can think of first. I also learned the importance of partnership. I cannot do all the work myself and need to split up the work. When I am stuck, I can also ask her for help. In this way, we are both learning from each other.</p>
 
+            <a href="https://movie-webpage.jacobl161.repl.co/">Preview of the project</a><br>
+            <a href="https://replit.com/@jacobl161/movie-webpage">Code of the project</a><br>
             <!--EXAMPLE OF PREVIEW LINK-->
             <!--<a href="http://yourUserName.github.io/yourRepoName">Preview</a><br>-->
             <!--EXAMPLE OF GITHUB LINK-->
