@@ -13,13 +13,105 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
+<style>
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #800080;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #000000;
+}
+
+.navcolor {
+    background-color: #5d137b /* Purple */
+}
+
+#logo, .project-img {
+    max-height: 300px;
+}
+
+#fork img{
+    height: 25px;
+    margin-bottom: 25px;
+    filter: invert(1);
+}
+
+#sep {
+    height: 75px;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+.bg-1 {
+    background-color: #ffffff; /* White */
+    color: #000000;
+}
+
+.bg-2 {
+    background-color: #5d137b; /* Purple */
+    color: #ffffff;
+}
+
+.card {
+    color: black;
+    text-align: left;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.bg-3 {
+    background-color: #3b083a; /* Dark Purple */
+    color: #ffffff;
+}
+
+.bg-4 {
+    background-color: #3b083a; /* Dark Purple */
+    color: #fff;
+}
+
+.container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #2e72a1 !important;
+}
+
+</style>
+
 </head>
 
 <body>
 
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark nav-color">
         <a class="navbar-brand owner-name" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -70,7 +162,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Movie Webpage Project</h5>
                             <h6 class="card-subtitle mb-2 text-muted">10th Grade SEP</h6>
-                            <p class="card-text">I made a fake movie webpage using basic CSS and HTML.</p>
+                            <p class="card-text">I made a webpage for a fake movie trailer using basic CSS and HTML.</p>
                             <a href="projects/movie-webpage.html" class="card-link">More</a>
                         </div>
                     </div>
@@ -81,7 +173,7 @@
                         <div class="card-body">
                             <h5 class="card-title">CYOA Project</h5>
                             <h6 class="card-subtitle mb-2 text-muted">10th Grade SEP</h6>
-                            <p class="card-text">I collaborated with a partner using Github and my Git-enabled IDE to create a project where the user chooses their own adventure by clicking through files on Github.</p>
+                            <p class="card-text">Using Github and an IDE to create a simple game where the user chooses their own adventure by clicking through in-text-linked files.</p>
                             <a href="projects/cyoa-portal.html" class="card-link">More</a>
                         </div>
                     </div>
@@ -92,7 +184,7 @@
                         <div class="card-body">
                             <h5 class="card-title">SEP10 Freedom Project</h5>
                             <h6 class="card-subtitle mb-2 text-muted">10th Grade SEP</h6>
-                            <p class="card-text">I combined my knowledge of HTML, CSS, Bootstrap and an additional web design tool to create a website which addresses an issue which is currently present in my chosen industry, (ex. education, cooking) and discusses the currently existing and future technologies used in my chosen industry.</p>
+                            <p class="card-text">Using Tailwind CSS to create a website which discusses the existing and future technologies that could be used for accessing websites that block Tor.</p>
                             <a href="projects/sep10-fp.html" class="card-link">More</a>
                         </div>
                     </div>
@@ -108,13 +200,13 @@
         <h3 class="margin">About Me</h3><br>
         <div class="row">
             <div class="col-sm-4">
-                <p>SEP Student at HSTAT</p>
+                <p>Coding Club Member</p>
             </div>
             <div class="col-sm-4">
                 <p>Bilingual</p>
             </div>
             <div class="col-sm-4">
-                <p>Coding Club Member</p>
+                <p>Linux and Android Enthusiast</p>
             </div>
         </div>
     </div>
